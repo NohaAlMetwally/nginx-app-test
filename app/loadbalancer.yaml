@@ -3,6 +3,7 @@ kind: Service
 
 metadata:
   name: load-balancer
+  namespace: devops
   
 spec:
   type: LoadBalancer
