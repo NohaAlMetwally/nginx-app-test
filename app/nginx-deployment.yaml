@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: nginx-app
+  namespace: devops
 
 spec:
   replicas: 1
